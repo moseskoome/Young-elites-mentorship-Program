@@ -1,0 +1,47 @@
+.card {
+  background: #fff;
+  border-radius: 12px;
+  padding: 2rem 1.5rem;
+  box-shadow: 0 2px 16px rgba(0, 0, 0, 0.06);
+  cursor: pointer;
+  transition: transform 0.25s, box-shadow 0.25s;
+  text-align: center;
+  border: 1px solid #e2e8f0;
+}
+
+.card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 8px 30px rgba(26, 86, 219, 0.12);
+  border-color: #1a56db;
+}
+
+.card-icon {
+  font-size: 2.5rem;
+  color: #1a56db;
+  margin-bottom: 1rem;
+}
+
+.card-title {
+  font-size: 1.15rem;
+  color: #1e293b;
+  margin-bottom: 0.5rem;
+}
+
+.card-summary {
+  font-size: 0.9rem;
+  color: #64748b;
+  line-height: 1.6;
+}
+
+.card-cta {
+  display: inline-block;
+  margin-top: 1rem;
+  font-size: 0.9rem;
+  color: #e8760a;
+  font-weight: 600;
+  transition: color 0.2s;
+}
+
+.card:hover .card-cta {
+  color: #1a56db;
+}

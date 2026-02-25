@@ -1,0 +1,93 @@
+.contact-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 3rem;
+  align-items: start;
+}
+
+.contact-info h2,
+.contact-message-box h2 {
+  font-size: 1.3rem;
+  color: #1e293b;
+  margin-bottom: 1.5rem;
+}
+
+.contact-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.contact-icon {
+  font-size: 1.5rem;
+  color: #1a56db;
+  margin-top: 0.2rem;
+  flex-shrink: 0;
+}
+
+.contact-item h4 {
+  font-size: 0.9rem;
+  color: #64748b;
+  margin-bottom: 0.2rem;
+  font-weight: 500;
+}
+
+.contact-item a {
+  color: #1e293b;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 0.95rem;
+  transition: color 0.2s;
+}
+
+.contact-item a:hover {
+  color: #1a56db;
+}
+
+.contact-socials {
+  margin-top: 1.5rem;
+}
+
+.contact-socials h4 {
+  font-size: 0.95rem;
+  color: #1e293b;
+  margin-bottom: 0.75rem;
+}
+
+.contact-social-icons {
+  display: flex;
+  gap: 1rem;
+}
+
+.contact-social-icons a {
+  font-size: 1.5rem;
+  color: #475569;
+  transition: color 0.2s, transform 0.2s;
+}
+
+.contact-social-icons a:hover {
+  color: #1a56db;
+  transform: scale(1.15);
+}
+
+.contact-message-box {
+  background: #f8fafc;
+  border-radius: 12px;
+  padding: 2.5rem 2rem;
+  border: 1px solid #e2e8f0;
+}
+
+.contact-message-box p {
+  font-size: 0.95rem;
+  color: #475569;
+  line-height: 1.7;
+  margin-bottom: 1.5rem;
+}
+
+@media (max-width: 768px) {
+  .contact-container {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+}
