@@ -3,7 +3,7 @@ const galleryData = [
     id: 1,
     category: "Mentorship Sessions",
     caption: "Group mentorship discussion with students",
-    image: "https://placehold.co/600x400/1a56db/ffffff?text=Mentorship+Session+1",
+    image: "https://photos.app.goo.gl/bUPnSM8jF1iWt3Gh8",
   },
   {
     id: 2,
