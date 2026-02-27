@@ -3,7 +3,7 @@ const teamData = [
     id: 1,
     name: "Irene Gatrwiri",
     role: "Program Coordinator",
-    bio: "Linet oversees the planning and execution of all mentorship programs. With a passion for youth development, she ensures every session is impactful and well-organized.",
+    bio: "Irene oversees the planning and execution of all mentorship programs. With a passion for youth development, she ensures every session is impactful and well-organized.",
     image: null,
   },
   {
@@ -24,14 +24,14 @@ const teamData = [
     id: 4,
     name: "Nancy Mwendwa",
     role: "Student Affairs",
-    bio: "Irene is the go-to person for student welfare. She listens, counsels, and ensures every student feels seen, heard, and supported throughout the program.",
+    bio: "Nancy is the go-to person for student welfare. She listens, counsels, and ensures every student feels seen, heard, and supported throughout the program.",
     image: null,
   },
   {
     id: 5,
     name: "Moses Koome",
     role: "Operations Coordinator",
-    bio: "Justine handles the logistics and operations behind every event and session, making sure everything runs smoothly from start to finish.",
+    bio: "Moses handles the logistics and operations behind every event and session, making sure everything runs smoothly from start to finish.",
     image: null,
   },
 ];
